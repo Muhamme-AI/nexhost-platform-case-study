@@ -46,10 +46,6 @@ export function Footer() {
             </span>
           </div>
         </div>
-
-        <p className="mt-6 text-xs text-ink-muted">
-          Built with Next.js · CV-grounded assistant on Groq · Privacy First.
-        </p>
       </div>
     </footer>
   );

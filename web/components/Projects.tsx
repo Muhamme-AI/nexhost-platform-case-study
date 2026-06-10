@@ -20,7 +20,7 @@ export function Projects() {
         </a>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid gap-4 sm:grid-cols-2">
         {PROJECTS.map((p) => (
           <a
             key={p.title}
@@ -29,7 +29,7 @@ export function Projects() {
             rel="noopener noreferrer"
             className={`group relative flex flex-col overflow-hidden rounded-xl border bg-panel/70 p-6 transition hover:bg-panel ${
               p.featured
-                ? "border-accent/30 md:col-span-2"
+                ? "border-accent/30"
                 : "border-white/10 hover:border-accent/30"
             }`}
           >

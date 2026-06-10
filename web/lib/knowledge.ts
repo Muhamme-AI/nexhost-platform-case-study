@@ -12,8 +12,9 @@ export const PROFILE = {
   location: "London / Hybrid (UK)",
   github: "https://github.com/Muhamme-AI",
   githubUser: "Muhamme-AI",
-  linkedin: "https://www.linkedin.com/in/Muhammed-AI",
-  email: "muhammed.ismael.ai@gmail.com",
+  linkedin: "https://www.linkedin.com/in/muhammed-AI",
+  portfolio: "https://mosalim.dev",
+  email: "muhammed.salim.data@gmail.com",
   phone: "+44 7562 317 578",
   tagline: "BRIDGING DATA // PRODUCTION AI",
   subtitle:
@@ -31,10 +32,11 @@ export const CV_KNOWLEDGE = `
 Name: Muhammed Salim
 Headline: AI Engineer | Full-Stack & AI/ML Engineer
 Location: London / Hybrid (UK)
-Email: muhammed.ismael.ai@gmail.com
+Email: muhammed.salim.data@gmail.com
 Phone: +44 7562 317 578
 GitHub: https://github.com/Muhamme-AI
-LinkedIn: https://www.linkedin.com/in/Muhammed-AI
+Portfolio: https://mosalim.dev
+LinkedIn: https://www.linkedin.com/in/muhammed-AI
 
 Professional summary: I'm a strategic technology executive and venture builder with years of
 success orchestrating end-to-end engineering, AI/ML innovation, and high-scale data
@@ -115,17 +117,15 @@ Architecture highlights:
 Engineering principles: resilience first (failover), safety by design (role-scoped tools +
 RLS), cost visibility (every call metered), operator-grade UX (realtime sync, auto-reconnect).
 
-# PORTFOLIO PROJECTS (GitHub: Muhamme-AI)
+# PORTFOLIO PROJECTS (GitHub: Muhamme-AI — public repos only)
 1. Nexhost — Restaurant Operations AI Platform (architecture case study):
    https://github.com/Muhamme-AI/nexhost-platform-case-study
-2. Music Store SQL Analysis — business-performance Q&A over a music store dataset:
-   https://github.com/Muhamme-AI/Data-analysis-project-3
-3. Vacation Planning Power BI Dashboard (team project for a major client):
-   https://github.com/Muhamme-AI/data-analytics-portfolio-project-2
-4. GDP & Internet Usage Analysis — UN data, Python/Jupyter:
-   https://github.com/Muhamme-AI/data-analytics-portfolio
-5. UK Crime Data Analysis — datasets, report, Power BI dashboard:
-   https://github.com/Muhamme-AI/Data_analysis_project_4
+2. Fraud Detection — real-time credit card fraud detection with LightGBM, Flask API, and live map dashboard:
+   https://github.com/Muhamme-AI/fraud-detection
+3. Stock Forecast — short-horizon stock price forecasting with LSTM, BiLSTM, and GRU models:
+   https://github.com/Muhamme-AI/stock-forecast
+4. UK Crime Analysis — cleaned datasets, report, and interactive Power BI dashboard:
+   https://github.com/Muhamme-AI/uk-crime-analysis
 
 # HOW I WORK / PHILOSOPHY
 I build AI that survives contact with production: resilient, observable, cost-aware, and safe.
@@ -134,8 +134,9 @@ concerns. I'm a venture builder as much as an engineer, comfortable translating 
 C-suite strategy and hands-on delivery.
 
 # CONTACT
-Email: muhammed.ismael.ai@gmail.com · Phone: +44 7562 317 578
-LinkedIn: https://www.linkedin.com/in/Muhammed-AI · GitHub: https://github.com/Muhamme-AI
+Email: muhammed.salim.data@gmail.com · Phone: +44 7562 317 578
+Portfolio: https://mosalim.dev
+LinkedIn: https://www.linkedin.com/in/muhammed-AI · GitHub: https://github.com/Muhamme-AI
 
 # QUICK FACTS (use these for common questions — answer directly, do not hedge)
 - Who is Muhammed? AI Engineer and Full-Stack & AI/ML Engineer based in London/Hybrid UK.
@@ -158,8 +159,9 @@ LinkedIn: https://www.linkedin.com/in/Muhammed-AI · GitHub: https://github.com/
 - Tech stack: Python, React, TypeScript, PostgreSQL, Supabase, LangChain, LangGraph, RAG, MCP,
   FastMCP, Hugging Face, Power BI, Azure/AWS/GCP, Vercel, Railway, CI/CD.
 - Certifications: AWS Certified, GCP Generative AI Leader, Azure AI Apps and Agents Developer.
-- GitHub: https://github.com/Muhamme-AI · LinkedIn: https://www.linkedin.com/in/Muhammed-AI
-- Email: muhammed.ismael.ai@gmail.com · Phone: +44 7562 317 578
+- GitHub: https://github.com/Muhamme-AI · Portfolio: https://mosalim.dev
+LinkedIn: https://www.linkedin.com/in/muhammed-AI
+- Email: muhammed.salim.data@gmail.com · Phone: +44 7562 317 578
 - Philosophy: production AI that is resilient, observable, cost-aware, and safe; venture builder
   who bridges C-suite strategy and hands-on engineering.
 `;
@@ -182,32 +184,25 @@ export const PROJECTS: Project[] = [
     featured: true,
   },
   {
-    title: "Music Store SQL Analysis",
+    title: "Fraud Detection",
     blurb:
-      "SQL analysis of an online music store's dataset to answer key business-performance questions and support data-driven growth decisions.",
-    tags: ["SQL", "Analytics", "Business Insight"],
-    url: "https://github.com/Muhamme-AI/Data-analysis-project-3",
+      "Real-time credit card fraud detection with LightGBM, a Flask API, and a live map dashboard.",
+    tags: ["LightGBM", "Flask", "ML", "Dashboard"],
+    url: "https://github.com/Muhamme-AI/fraud-detection",
   },
   {
-    title: "Vacation Planning Power BI Dashboard",
+    title: "Stock Forecast",
     blurb:
-      "Team project: a Power BI dashboard for a major client to aid vacation planning — data collection, cleaning, transformation, and visualization.",
-    tags: ["Power BI", "Data Viz", "Teamwork"],
-    url: "https://github.com/Muhamme-AI/data-analytics-portfolio-project-2",
+      "Short-horizon stock price forecasting with LSTM, BiLSTM, and GRU models.",
+    tags: ["LSTM", "Deep Learning", "Jupyter", "Time Series"],
+    url: "https://github.com/Muhamme-AI/stock-forecast",
   },
   {
-    title: "GDP & Internet Usage Analysis",
+    title: "UK Crime Analysis",
     blurb:
-      "Exploring the relationship between GDP per capita and internet usage across countries using UN data — trends, distributions, and change over time.",
-    tags: ["Python", "Jupyter", "EDA"],
-    url: "https://github.com/Muhamme-AI/data-analytics-portfolio",
-  },
-  {
-    title: "UK Crime Data Analysis",
-    blurb:
-      "Analysis of UK crime data with raw and cleaned datasets, a detailed report, an interactive Power BI dashboard, and a summary presentation.",
-    tags: ["Power BI", "Reporting", "Data Cleaning"],
-    url: "https://github.com/Muhamme-AI/Data_analysis_project_4",
+      "UK crime data analysis — cleaned datasets, a detailed report, and an interactive Power BI dashboard.",
+    tags: ["Power BI", "Data Cleaning", "Reporting"],
+    url: "https://github.com/Muhamme-AI/uk-crime-analysis",
   },
 ];
 
