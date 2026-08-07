@@ -13,7 +13,7 @@ excluded. Diagrams and examples use synthetic data only.
 
 ## My role
 
-**Muhammed Salim — Co-Founder / CTO, AI Engineer (London).**
+**Muhammed Salim — AI Engineer (London).**
 
 I led the design and implementation of the AI platform, including:
 
